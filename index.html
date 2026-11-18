@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muthumari P | Data Analyst & AI/DS Student Portfolio</title>
+  <meta name="description" content="Portfolio of Muthumari P - Second-Year B.Tech AI & Data Science student at Velammal Engineering College. Specialized in Data Analysis, Python, Pandas, Matplotlib, and Excel Dashboards.">
+  <meta name="keywords" content="Muthumari P, Data Analyst, Python, B.Tech AI & DS, Velammal Engineering College, Portfolio, Data Analysis, Excel, Pandas">
+  <meta name="author" content="Muthumari P">
+
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="Muthumari P | Data Analyst Portfolio">
+  <meta property="og:description" content="Explore projects, skills, and academic achievements of Muthumari P in Data Analytics and Python.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Muthumari P Portfolio Home">
+        <span class="logo-mark">&lt;M/&gt;</span>
+        <span class="logo-text">Muthumari<span>.P</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action & Mobile Menu Toggle -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Connect</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero section" id="home">
+      <!-- Background Ambient Glow Effects -->
+      <div class="ambient-glow glow-1" aria-hidden="true"></div>
+      <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-dot"></span>
+            <span>Available for Internship & Data Analyst Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Muthumari P</span>
+          </h1>
+
+          <div class="hero-role">
+            <span class="role-prefix">Passionate</span>
+            <span class="role-highlight">Data Analyst</span>
+            <span class="role-sub">& AI & Data Science Scholar</span>
+          </div>
+
+          <p class="hero-description">
+            Second-year B.Tech student at <strong>Velammal Engineering College</strong> with a strong foundation in Python programming, exploratory data analysis, and dynamic dashboard creation. Eager to transform raw datasets into meaningful, actionable insights that drive real business impact.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-layer-group"></i> View My Work
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-envelope"></i> Contact Me
+            </a>
+          </div>
+
+          <!-- Social and Professional Links -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect with me:</span>
+            <div class="social-links">
+              <!-- Replace with your actual LinkedIn profile URL -->
+              <a href="https://linkedin.com/in/[Add-LinkedIn-URL]" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <!-- Replace with your actual GitHub profile URL -->
+              <a href="https://github.com/[Add-GitHub-URL]" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:muthu129966@gmail.com" class="social-icon" aria-label="Send Email" title="Email Muthumari">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="tel:8903703502" class="social-icon" aria-label="Phone Call" title="Call Muthumari">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Profile Card -->
+        <div class="hero-visual">
+          <div class="profile-card glass-panel">
+            <div class="profile-avatar-wrapper">
+              <!-- Profile Placeholder: Replace 'avatar-placeholder' or insert your own headshot image -->
+              <div class="avatar-placeholder" id="avatar-container">
+                <i class="fa-solid fa-user-graduate"></i>
+                <span class="avatar-caption">[Add Profile Photo]</span>
+              </div>
+            </div>
+
+            <div class="profile-badge-overlay">
+              <div class="metric-item">
+                <span class="metric-value">8.96</span>
+                <span class="metric-label">Sem 1 CGPA</span>
+              </div>
+              <div class="metric-divider"></div>
+              <div class="metric-item">
+                <span class="metric-value">2nd Yr</span>
+                <span class="metric-label">B.Tech AI & DS</span>
+              </div>
+            </div>
+
+            <div class="quick-skills-preview">
+              <span class="tech-chip"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="tech-chip"><i class="fa-solid fa-table"></i> MS Excel</span>
+              <span class="tech-chip"><i class="fa-solid fa-chart-pie"></i> Pandas</span>
+              <span class="tech-chip"><i class="fa-solid fa-chart-line"></i> Matplotlib</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by Data, Passionate About Insights</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative Column -->
+          <div class="about-narrative glass-panel">
+            <h3 class="narrative-heading">
+              <i class="fa-solid fa-bullseye gradient-icon"></i> Career Objective
+            </h3>
+            <p class="narrative-text">
+              A passionate and detail-oriented B.Tech student with a strong foundation in data analysis, Python programming, and Microsoft Office tools. Eager to contribute to a dynamic organization as a <strong>Data Analyst</strong>, transforming complex datasets into actionable insights that drive informed business decisions.
+            </p>
+            <p class="narrative-text">
+              Committed to continuous skill development and delivering high-quality analytical solutions through automated data pipelines, statistical evaluation, and interactive visual reporting.
+            </p>
+
+            <div class="personal-interests">
+              <h4 class="interests-title"><i class="fa-solid fa-heart gradient-icon"></i> Personal Hobbies & Interests</h4>
+              <div class="interests-tags">
+                <span class="interest-badge"><i class="fa-solid fa-dumbbell"></i> Workout & Fitness</span>
+                <span class="interest-badge"><i class="fa-solid fa-headphones"></i> Listening to Music</span>
+                <span class="interest-badge"><i class="fa-solid fa-brain"></i> Analytical Thinking</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Information Cards -->
+          <div class="about-info-cards">
+            <div class="info-card glass-panel">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-details">
+                <span class="info-title">Location</span>
+                <span class="info-value">Chennai, Tamil Nadu, India</span>
+              </div>
+            </div>
+
+            <div class="info-card glass-panel">
+              <div class="info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="info-details">
+                <span class="info-title">Academic Degree</span>
+                <span class="info-value">B.Tech - AI & Data Science (2nd Year)</span>
+              </div>
+            </div>
+
+            <div class="info-card glass-panel">
+              <div class="info-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+              <div class="info-details">
+                <span class="info-title">Primary Email</span>
+                <a href="mailto:muthu129966@gmail.com" class="info-value link-accent">muthu129966@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-card glass-panel">
+              <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+              <div class="info-details">
+                <span class="info-title">Phone Contact</span>
+                <a href="tel:8903703502" class="info-value link-accent">+91 8903703502</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education & Milestones</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="education-timeline">
+          <div class="timeline-item glass-panel">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div class="timeline-degree">
+                <h3>B.Tech - Artificial Intelligence & Data Science</h3>
+                <h4 class="institution-name">
+                  <i class="fa-solid fa-building-columns"></i> Velammal Engineering College
+                </h4>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-badge location-badge"><i class="fa-solid fa-map-pin"></i> Chennai, Tamil Nadu</span>
+                <span class="timeline-badge status-badge"><i class="fa-solid fa-calendar-days"></i> Currently in 2nd Year (2023 - 2027)</span>
+              </div>
+            </div>
+
+            <div class="timeline-body">
+              <div class="grade-highlight">
+                <div class="grade-box">
+                  <span class="grade-label">First Semester Academic Performance</span>
+                  <div class="grade-score">
+                    <span class="score-number">8.96</span>
+                    <span class="score-scale">/ 10.0 CGPA</span>
+                  </div>
+                </div>
+                <p class="grade-note">
+                  <i class="fa-solid fa-circle-check"></i> Outstanding academic track record built on rigorous mathematics, algorithmic problem solving in C and Python, and computational data fundamentals.
+                </p>
+              </div>
+
+              <div class="coursework-highlights">
+                <h5>Key Academic Focus Areas:</h5>
+                <ul class="course-list">
+                  <li><i class="fa-solid fa-check"></i> Python Programming & Scripting</li>
+                  <li><i class="fa-solid fa-check"></i> Foundational C Programming</li>
+                  <li><i class="fa-solid fa-check"></i> Probability, Statistics & Exploratory Data Analysis</li>
+                  <li><i class="fa-solid fa-check"></i> Data Cleaning & Visualization Techniques</li>
+                  <li><i class="fa-solid fa-check"></i> Advanced Spreadsheet Modeling (PivotTables & VLOOKUP)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TECHNICAL SKILLS SECTION ==================== -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical & Professional Skills</h2>
+          <p class="section-subtitle">Categorized skills directly extracted and verified from my academic resume.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <i class="fa-brands fa-python skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Python Programming</span>
+                  <span class="skill-sub">Scripting, Pandas, NumPy</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-terminal skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">C Programming</span>
+                  <span class="skill-sub">Logic, Structures, Algorithms</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Data Analysis & Libraries -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-chart-pie"></i></div>
+              <h3>Data Analysis & Visualization</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <i class="fa-solid fa-broom skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Data Cleaning</span>
+                  <span class="skill-sub">Preprocessing & Imputation</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-chart-line skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Data Visualization</span>
+                  <span class="skill-sub">Matplotlib & Interactive Charts</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-calculator skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Statistical Analysis</span>
+                  <span class="skill-sub">Descriptive & Correlation</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-file-invoice skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Report Writing</span>
+                  <span class="skill-sub">Executive Business Summaries</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Productivity & Office Tools -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-file-excel"></i></div>
+              <h3>Microsoft Office & Reporting</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <i class="fa-solid fa-table-cells skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">MS Excel</span>
+                  <span class="skill-sub">PivotTables, VLOOKUP, Slicers</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-file-powerpoint skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">MS PowerPoint</span>
+                  <span class="skill-sub">Stakeholder Presentations</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-file-word skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">MS Word</span>
+                  <span class="skill-sub">Formal Research Documentation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Professional & Soft Skills -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-lightbulb"></i></div>
+              <h3>Professional Competencies</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <i class="fa-solid fa-magnifying-glass-chart skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Analytical Thinking</span>
+                  <span class="skill-sub">Root Cause Discovery</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-puzzle-piece skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Problem Solving</span>
+                  <span class="skill-sub">Algorithmic & Logical</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-bullseye skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Attention to Detail</span>
+                  <span class="skill-sub">Data Quality Assurance</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-users skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Team Collaboration</span>
+                  <span class="skill-sub">Cross-functional synergy</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-clock skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Time Management</span>
+                  <span class="skill-sub">Milestone Prioritization</span>
+                </div>
+              </div>
+              <div class="skill-pill">
+                <i class="fa-solid fa-comments skill-brand"></i>
+                <div class="pill-info">
+                  <span class="skill-name">Communication</span>
+                  <span class="skill-sub">Clear Technical Delivery</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED PROJECTS SECTION ==================== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Academic & Analytics Projects</h2>
+          <p class="section-subtitle">Real-world datasets analyzed with Python, automated pipelines, and interactive dashboards.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Sales Data Analysis Dashboard -->
+          <article class="project-card glass-panel">
+            <div class="project-header">
+              <div class="project-badge">
+                <i class="fa-solid fa-chart-simple"></i> Business Analytics
+              </div>
+              <h3 class="project-title">Sales Data Analysis Dashboard</h3>
+            </div>
+
+            <p class="project-desc">
+              End-to-end exploratory analysis and visualization of 12 months of multi-category sales figures designed to track revenue trends, isolate high-growth product segments, and empower management decisions.
+            </p>
+
+            <div class="project-highlights">
+              <h4>Key Outcomes & Features:</h4>
+              <ul>
+                <li><i class="fa-solid fa-circle-check"></i> Conducted historical trend evaluation over 12 months of transactions to discover seasonal sales peaks.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Engineered an interactive MS Excel dashboard equipped with PivotTables, dynamic slicers, and KPI cards for leadership reporting.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Automated the data cleaning and transformation pipeline using <strong>Python & Pandas</strong>, cutting manual preprocessing time significantly.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">MS Excel</span>
+              <span class="tech-tag">PivotTables</span>
+              <span class="tech-tag">Matplotlib</span>
+            </div>
+
+            <div class="project-actions">
+              <!-- Replace [Add GitHub URL] with actual repo link -->
+              <a href="https://github.com/[Add-GitHub-URL]" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i> [Add GitHub Repo]
+              </a>
+              <!-- Replace with live demo or Excel sheet download link -->
+              <a href="#contact" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-file-excel"></i> View Case Study
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Student Performance Analysis System -->
+          <article class="project-card glass-panel">
+            <div class="project-header">
+              <div class="project-badge">
+                <i class="fa-solid fa-graduation-cap"></i> Statistical Modeling
+              </div>
+              <h3 class="project-title">Student Performance Analysis System</h3>
+            </div>
+
+            <p class="project-desc">
+              Comprehensive statistical investigation analyzing academic performance trends across 200+ students to evaluate subject mastery, study habits, and demographic influences on academic outcomes.
+            </p>
+
+            <div class="project-highlights">
+              <h4>Key Outcomes & Features:</h4>
+              <ul>
+                <li><i class="fa-solid fa-circle-check"></i> Analyzed multidimensional performance metrics of 200+ students applying descriptive statistics and frequency distributions.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Applied bivariate and multivariate correlation analysis to isolate key drivers determining test scores and academic retention.</li>
+                <li><i class="fa-solid fa-circle-check"></i> Visualized grade dispersion using <strong>Matplotlib</strong> and compiled actionable takeaways into a formal MS Word executive report.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Matplotlib</span>
+              <span class="tech-tag">MS Word</span>
+            </div>
+
+            <div class="project-actions">
+              <!-- Replace [Add GitHub URL] with actual repo link -->
+              <a href="https://github.com/[Add-GitHub-URL]" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i> [Add GitHub Repo]
+              </a>
+              <!-- Replace with report preview or project documentation link -->
+              <a href="#contact" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-file-lines"></i> View Report
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE & INTERNSHIP READINESS ==================== -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Journey</span>
+          <h2 class="section-title">Academic Experience & Training</h2>
+          <p class="section-subtitle">Practical hands-on training and foundational analytical experience.</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="experience-card glass-panel">
+          <div class="experience-badge"><i class="fa-solid fa-briefcase"></i> Aspiring Data Analyst</div>
+          <div class="experience-content">
+            <div class="exp-header-info">
+              <div>
+                <h3 class="exp-title">Data Analytics & AI Specialization</h3>
+                <h4 class="exp-company">Velammal Engineering College, Chennai</h4>
+              </div>
+              <div class="exp-period">
+                <span class="badge-time"><i class="fa-regular fa-calendar"></i> 2023 - Present (2nd Year)</span>
+              </div>
+            </div>
+
+            <div class="exp-responsibilities">
+              <p>
+                Currently undergoing rigorous coursework and project-based training in <strong>Artificial Intelligence & Data Science</strong>. Actively applying theoretical statistical knowledge to solve practical business questions.
+              </p>
+              <ul class="exp-bullets">
+                <li><i class="fa-solid fa-arrow-right"></i> Engineered automated data pipelines in Python for clean dataset preparation before downstream analysis.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> Modeled statistical datasets, calculated variance, standard deviation, and correlation matrices for academic and business studies.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> Authored analytical summaries and built interactive Excel dashboards using PivotTables, VLOOKUP, and conditional formatting.</li>
+                <li><i class="fa-solid fa-arrow-right"></i> Preparing for summer 2025/2026 internships and entry-level Data Analyst/Python developer opportunities.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ACHIEVEMENTS & DECLARATION ==================== -->
+    <section class="achievements section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Recognition</span>
+          <h2 class="section-title">Achievements & Verified Declaration</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="achieve-grid">
+          <div class="achieve-card glass-panel">
+            <div class="achieve-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="achieve-text">
+              <h3>Academic Excellence - First Semester</h3>
+              <p class="achieve-highlight">Scored 8.96 / 10.0 CGPA</p>
+              <p>Achieved top-tier academic performance in the foundational semester of B.Tech in Artificial Intelligence & Data Science at Velammal Engineering College.</p>
+            </div>
+          </div>
+
+          <div class="achieve-card glass-panel">
+            <div class="achieve-icon"><i class="fa-solid fa-signature"></i></div>
+            <div class="achieve-text">
+              <h3>Formal Declaration</h3>
+              <p class="declaration-quote">
+                "I hereby declare that the information furnished above is true and correct to the best of my knowledge."
+              </p>
+              <div class="sign-block">
+                <strong>Muthumari P</strong>
+                <span>Location: Chennai, Tamil Nadu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Discuss Opportunities</h2>
+          <p class="section-subtitle">Whether you have an internship opening, entry-level role, or data project, feel free to reach out!</p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Direct Contact Information -->
+          <div class="contact-info-col">
+            <div class="contact-info-card glass-panel">
+              <h3>Contact Details</h3>
+              <p class="contact-intro">I am actively looking for internship and entry-level Data Analyst roles. You can contact me directly through:</p>
+
+              <div class="contact-items-list">
+                <div class="contact-item">
+                  <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="c-text">
+                    <span class="c-label">Email Me</span>
+                    <a href="mailto:muthu129966@gmail.com" class="c-value">muthu129966@gmail.com</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                  <div class="c-text">
+                    <span class="c-label">Call / WhatsApp</span>
+                    <a href="tel:8903703502" class="c-value">+91 8903703502</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                  <div class="c-text">
+                    <span class="c-label">Location</span>
+                    <span class="c-value">Chennai, Tamil Nadu, India</span>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="c-icon"><i class="fa-brands fa-linkedin"></i></div>
+                  <div class="c-text">
+                    <span class="c-label">LinkedIn</span>
+                    <a href="https://linkedin.com/in/[Add-LinkedIn-URL]" target="_blank" rel="noopener noreferrer" class="c-value">[Add LinkedIn Profile URL]</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+                  <div class="c-text">
+                    <span class="c-label">GitHub</span>
+                    <a href="https://github.com/[Add-GitHub-URL]" target="_blank" rel="noopener noreferrer" class="c-value">[Add GitHub Profile URL]</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-col">
+            <div class="contact-form-card glass-panel">
+              <h3>Send Me A Message</h3>
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="name">Your Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                  </div>
+                  <span class="error-msg" id="name-error">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Your Email Address <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-envelope input-icon"></i>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@company.com" required>
+                  </div>
+                  <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject">Subject <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-bookmark input-icon"></i>
+                    <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Data Analyst Internship Opportunity" required>
+                  </div>
+                  <span class="error-msg" id="subject-error">Please enter a subject.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Your Message <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                    <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Hello Muthumari, I came across your portfolio and would like to discuss..." required></textarea>
+                  </div>
+                  <span class="error-msg" id="message-error">Please write a message of at least 10 characters.</span>
+                </div>
+
+                <!-- Form Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                  <span>Send Message</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+                <!-- Feedback Toast Status -->
+                <div class="form-status" id="form-status" role="alert" aria-live="polite"></div>
+
+                <!-- Service Note -->
+                <p class="service-disclaimer">
+                  <i class="fa-solid fa-info-circle"></i> 
+                  <strong>Note:</strong> This client-side form includes active validation. To route messages directly to your email in production, connect a free service such as <a href="https://formspree.io" target="_blank" rel="noopener noreferrer">Formspree</a> or <a href="https://www.emailjs.com" target="_blank" rel="noopener noreferrer">EmailJS</a>.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-mark">&lt;M/&gt;</span>
+            <span class="logo-text">Muthumari<span>.P</span></span>
+          </a>
+          <p class="footer-bio">
+            Second-Year B.Tech Student in Artificial Intelligence & Data Science at Velammal Engineering College, Chennai.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-section">
+          <h4>Social Profiles</h4>
+          <div class="footer-socials">
+            <a href="https://linkedin.com/in/[Add-LinkedIn-URL]" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/[Add-GitHub-URL]" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:muthu129966@gmail.com" class="social-icon" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:8903703502" class="social-icon" aria-label="Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+          <p class="direct-phone">Direct Line: +91 8903703502</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year">2026</span> Muthumari P. All rights reserved. Built with clean HTML5, CSS3, & JavaScript.
+        </p>
+        <p class="footer-declaration">
+          Information based on verified resume data.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP BUTTON ==================== -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
